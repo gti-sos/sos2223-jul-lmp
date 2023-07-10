@@ -1,16 +1,16 @@
 <svelte:head>
-    <title>SOS2223-JUL-MAS</title>
+    <title>SOS2223-JUL-LMP</title>
 </svelte:head>
 <main>
     <body>
-        <h1>SOS2223-JUL-MAS</h1>
+        <h1>SOS2223-JUL-LMP</h1>
         <ul dir="auto">
             <li>
                 <strong>Equipo</strong>
                 <ul dir="auto">
                     <li>
-                        <a href="https://github.com/salinosaso"
-                            >Miguel Ángel Salinas(Fuente: andalusian-campings)
+                        <a href="https://github.com/Lukmare"
+                            >Lorenzo Morales Palacios(Fuente: immovables)
                         </a>
                     </li>
                 </ul>
@@ -21,8 +21,8 @@
             </li>
             <li>
                 <strong>Repositorio</strong>:
-                <a href="https://github.com/gti-sos/SOS2223-JUL-MAS"
-                    >gti-sos/SOS2223-JUL-MAS</a
+                <a href="https://github.com/gti-sos/sos2223-jul-lmp"
+                    >gti-sos/SOS2223-JUL-LMP</a
                 >
             </li>
             <li>
@@ -36,7 +36,7 @@
                 <ul dir="auto">
                     <li>
                         <a
-                            href="http://sos2223-20.appspot.com/api/v1/immovables/docs"
+                            href="http://sos2223-jul-lmp.appspot.com/api/v1/immovables/docs"
                             rel="nofollow"
                             >http://sos2223-20.appspot.com/api/v1/immovables/docs</a
                         >
