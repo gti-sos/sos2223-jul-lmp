@@ -74,7 +74,6 @@ app.get('/api/v2/immovables/docs', (req, res) => {
 
                     // Si no existen datos el estado es 404: Not Found
                     res.sendStatus(404);
-                    res.json([]);
                 }else{
 
                     // Inicializamos los valores necesarios para el filtrado: un contador para el limit y el valor por defecto offset
@@ -107,8 +106,6 @@ app.get('/api/v2/immovables/docs', (req, res) => {
                     if(datos.length == 0){
 
                         console.log(`immovables not found`);
-                        // Estado 404: Not Found
-                        res.sendStatus(404);
                         res.json([]);
                     // Si por el contrario encontramos datos
                     }else{
