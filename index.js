@@ -16,8 +16,6 @@ import {loadBackend_LMPv3} from "./backend/index_LMPv3.js";
 import {loadBackend_MASv3} from "./backend/index_MASv3.js";
 import {loadBackend_MAS} from "./backend/index_MAS.js";
 import {loadBackend_MASv2} from "./backend/index_MASv2.js";
-import {loadBackend_CGM} from "./backend/index_CGM.js";
-import {loadBackend_CGMv2} from "./backend/index_CGMv2.js";
 console.log("c");
 //var backend_CGM = require("./backend/index_CGM");
 loadBackend_MAS(app);
@@ -26,8 +24,6 @@ loadBackend_MASv2(app);
 loadBackend_MASv3(app);
 loadBackend_LMPv3(app);
 loadBackend_LMP(app);
-loadBackend_CGM(app);
-loadBackend_CGMv2(app);
 console.log("d");
 
 app.use(handler);
