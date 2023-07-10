@@ -29,10 +29,7 @@ export const nodes = [
 	() => import('./nodes/25'),
 	() => import('./nodes/26'),
 	() => import('./nodes/27'),
-	() => import('./nodes/28'),
-	() => import('./nodes/29'),
-	() => import('./nodes/30'),
-	() => import('./nodes/31')
+	() => import('./nodes/28')
 ];
 
 export const server_loads = [];
@@ -50,23 +47,20 @@ export const dictionary = {
 		"/integrations/lmp/api-immovables/morris": [12,[2]],
 		"/integrations/lmp/api-sos/con-proxy": [13,[2]],
 		"/integrations/lmp/api-sos/sin-proxy": [14,[2]],
-		"/integrations/lmp/apis-externas/google/grafica": [15,[2]],
-		"/integrations/lmp/apis-externas/google/tabla": [16,[2]],
-		"/integrations/lmp/apis-externas/paises": [17,[2]],
-		"/integrations/lmp/apis-externas/pokemon": [18,[2]],
-		"/integrations/lmp/apis-externas/youtube": [19,[2]],
-		"/integrations/lmp/together": [20,[2]],
-		"/integrations/mas/api-andalusian-campings/api-sos": [21,[2]],
-		"/integrations/mas/api-andalusian-campings/external-api/advice": [22,[2]],
-		"/integrations/mas/api-andalusian-campings/external-api/currency": [23,[2]],
-		"/integrations/mas/api-andalusian-campings/external-api/food": [24,[2]],
-		"/integrations/mas/api-andalusian-campings/external-api/music": [25,[2]],
-		"/integrations/mas/api-andalusian-campings/external-api/science": [26,[2]],
-		"/integrations/mas/api-andalusian-campings/external-api/space": [27,[2]],
-		"/integrations/mas/api-andalusian-campings/external-api/university": [28,[2]],
-		"/integrations/mas/api-andalusian-campings/google_chart": [29,[2]],
-		"/integrations/mas/api-andalusian-campings/highcharts": [30,[2]],
-		"/integrations/mas/api-andalusian-campings/together": [31,[2]]
+		"/integrations/lmp/apis-externas/paises": [15,[2]],
+		"/integrations/lmp/apis-externas/pokemon": [16,[2]],
+		"/integrations/lmp/together": [17,[2]],
+		"/integrations/mas/api-andalusian-campings/api-sos": [18,[2]],
+		"/integrations/mas/api-andalusian-campings/external-api/advice": [19,[2]],
+		"/integrations/mas/api-andalusian-campings/external-api/currency": [20,[2]],
+		"/integrations/mas/api-andalusian-campings/external-api/food": [21,[2]],
+		"/integrations/mas/api-andalusian-campings/external-api/music": [22,[2]],
+		"/integrations/mas/api-andalusian-campings/external-api/science": [23,[2]],
+		"/integrations/mas/api-andalusian-campings/external-api/space": [24,[2]],
+		"/integrations/mas/api-andalusian-campings/external-api/university": [25,[2]],
+		"/integrations/mas/api-andalusian-campings/google_chart": [26,[2]],
+		"/integrations/mas/api-andalusian-campings/highcharts": [27,[2]],
+		"/integrations/mas/api-andalusian-campings/together": [28,[2]]
 	};
 
 export const hooks = {

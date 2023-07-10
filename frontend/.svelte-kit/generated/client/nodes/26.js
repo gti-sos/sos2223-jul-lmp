@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/integrations/mas/api-andalusian-campings/external-api/science/+page.svelte";
+export { default as component } from "../../../../src/routes/integrations/mas/api-andalusian-campings/google_chart/+page.svelte";

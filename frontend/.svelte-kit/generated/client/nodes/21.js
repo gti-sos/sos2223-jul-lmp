@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/integrations/mas/api-andalusian-campings/api-sos/+page.svelte";
+export { default as component } from "../../../../src/routes/integrations/mas/api-andalusian-campings/external-api/food/+page.svelte";
