@@ -393,7 +393,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://sos2223-jul-lmp.ew.r.appspot.com/api/v3/immovables?province=Sevilla&offset=1&limit=2",
+					"raw": "https://sos2223-jul-lmp.ew.r.appspot.com/api/v3/immovables?province=Sevilla",
 					"protocol": "https",
 					"host": [
 						"sos2223-jul-lmp",
@@ -411,14 +411,6 @@
 						{
 							"key": "province",
 							"value": "Sevilla"
-						},
-						{
-							"key": "offset",
-							"value": "1"
-						},
-						{
-							"key": "limit",
-							"value": "2"
 						}
 					]
 				}
