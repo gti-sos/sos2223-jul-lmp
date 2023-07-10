@@ -55,9 +55,6 @@
 
     onMount(async() => {
                 // Load initial data from API or local storage 
-                if(immovables.length===0){
-                  loadInitialData();
-                }
                 getImmovables();
                 
 

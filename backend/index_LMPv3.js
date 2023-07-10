@@ -56,11 +56,6 @@ app.get('/api/v2/immovables/docs', (req, res) => {
   //immovables
   app.get(BASE_API_URL+'/immovables', (req, res) => {
     console.log(`New request to /immovables`);
-    if(immovables.length===0){
-      fetch(BASE_API_URL+'/immovables/loadInitialData', {
-        method: 'GET'
-      });
-    }
     // Recuperamos todos los registros de la base de datos para filtrarlos despues
     immovables.find({}, {_id: 0}, (err, data) => {
 
@@ -114,7 +109,7 @@ app.get('/api/v2/immovables/docs', (req, res) => {
                         console.log(`immovables not found`);
                         // Estado 404: Not Found
                         res.sendStatus(404);
-                        
+                        res.json([]);
                     // Si por el contrario encontramos datos
                     }else{
 

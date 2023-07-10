@@ -11,22 +11,6 @@
       <li><a href="\integrations\lmp\apis-externas\paises">API Externa Paises</a></li>
     </ul>
   </nav>
-  <br>
-  <h1 class="title">Integraciones MAS</h1>
-  <nav>
-    <ul>
-      <li><a href="\integrations\mas\api-andalusian-campings\highcharts">Graficos API Campings HighCharts</a></li>
-      <li><a href="\integrations\mas\api-andalusian-campings\google_chart">Graficos Google Charts</a></li>
-      <li><a href="\integrations\mas\api-andalusian-campings\external-api\currency">Precios Monedas</a></li>
-      <li><a href="\integrations\mas\api-andalusian-campings\external-api\music">Info Nirvana</a></li>
-      <li><a href="\integrations\mas\api-andalusian-campings\external-api\space">Noticias Espaciales</a></li>
-      <li><a href="\integrations\mas\api-andalusian-campings\external-api\advice">Consejos</a></li>
-      <li><a href="\integrations\mas\api-andalusian-campings\external-api\university">Lista de Universidades</a></li>
-      <li><a href="\integrations\mas\api-andalusian-campings\external-api\science">Literatura Científica</a></li>
-      <li><a href="\integrations\mas\api-andalusian-campings\external-api\food">Recetas de Comida</a></li>
-    </ul>
-  </nav>
-  <br>
   <h1 class="title">Integraciones Conjunta </h1>
   <nav>
     <ul>

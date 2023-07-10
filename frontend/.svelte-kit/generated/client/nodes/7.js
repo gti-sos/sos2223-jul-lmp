@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/api/v2/blood-donations/+page.svelte";
+export { default as component } from "../../../../src/routes/api/v2/immovables/+page.svelte";
