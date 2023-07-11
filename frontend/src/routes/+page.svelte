@@ -27,8 +27,8 @@
             </li>
             <li>
                 <strong>URL</strong>:
-                <a href="http://sos2223-20.appspot.com/"
-                    >http://sos2223-20.appspot.com/
+                <a href="http://sos2223-jul-lmp.appspot.com/"
+                    >http://sos2223-jul-lmp.appspot.com/
                 </a>
             </li>
             <li>
@@ -51,9 +51,9 @@
                         <ul dir="auto">
                             <li>
                                 <a
-                                    href="http://sos2223-20.appspot.com/api/v2/immovables/docs"
+                                    href="http://sos2223-jul-lmp.appspot.com/api/v2/immovables/docs"
                                     rel="nofollow"
-                                    >http://sos2223-20.appspot.com/api/v2/immovables/docs</a
+                                    >http://sos2223-jul-lmp.appspot.com/api/v2/immovables/docs</a
                                 >
                                 (desarrollado por
                                 <a href="https://github.com/Lukmare"

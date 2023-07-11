@@ -7,9 +7,7 @@ var immovables = new Datastore();
 
 import fs from 'fs';
 
-
 function loadBackend_LMPv3(app){
-
     
 //L06 LPM____________________________________________________________________________-
 //__________________________GET initial data
@@ -233,9 +231,11 @@ app.get(`${BASE_API_URL}/immovables/:province`, (req, res) => {
       } else {
         immovables.insert(newImmovable, (err, newDoc) => {
           if (err) {
+            console.log("error post")
             console.log(`Error inserting immovable with id ${newImmovable.id}: ${err}`);
             res.sendStatus(500);
           } else {
+            console.log("post bien")
             console.log(`Inserted new immovable with id ${newImmovable.id}`);
             res.sendStatus(201);
           }
@@ -243,7 +243,6 @@ app.get(`${BASE_API_URL}/immovables/:province`, (req, res) => {
       }
     });
   });
-  
   //______________________________PUT con URL prohibidas
   app.put(BASE_API_URL+'/immovables', (req, res) => {
     res.sendStatus(405);
@@ -306,5 +305,4 @@ app.use('/api/proxy-lmp', function (req, res) {
 });
 
 };
-
 export {loadBackend_LMPv3}
