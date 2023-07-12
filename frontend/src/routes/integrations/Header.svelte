@@ -9,6 +9,7 @@
       <li><a href="\integrations\lmp\api-immovables\highcharts">Graficos API Immovables HighCharts</a></li>
       <li><a href="\integrations\lmp\apis-externas\pokemon">API Externa Pokemon</a></li>
       <li><a href="\integrations\lmp\apis-externas\paises">API Externa Paises</a></li>
+      <li><a href="\integrations\lmp\apis-externas\youtube">API Externa Youtube</a></li>
     </ul>
   </nav>
   <h1 class="title">Integraciones Conjunta </h1>

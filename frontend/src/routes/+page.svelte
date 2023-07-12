@@ -75,7 +75,29 @@
                                         >)
                                     </li>
                             <li>
-                            <li>
+                                <li>
+                                    <strong>Documentación de Postman v1</strong>
+                                    <ul dir="auto">
+                                        <li>
+                                            <a
+                                                href="https://documenter.getpostman.com/view/26062489/2s93K1oysD"
+                                                >Doc Inmuebles
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>Documentación de Postman v2</strong>
+                                    <ul dir="auto">
+                                        <li>
+                                            <a
+                                                href="https://documenter.getpostman.com/view/26062489/2s93XsZn3G"
+                                                >Doc Inmuebles
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
                                 <strong>Documentación de Postman v3</strong>
                                 <ul dir="auto">
                                     <li>

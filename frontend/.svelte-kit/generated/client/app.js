@@ -17,7 +17,8 @@ export const nodes = [
 	() => import('./nodes/13'),
 	() => import('./nodes/14'),
 	() => import('./nodes/15'),
-	() => import('./nodes/16')
+	() => import('./nodes/16'),
+	() => import('./nodes/17')
 ];
 
 export const server_loads = [];
@@ -36,7 +37,8 @@ export const dictionary = {
 		"/integrations/lmp/api-sos/sin-proxy": [13,[2]],
 		"/integrations/lmp/apis-externas/paises": [14,[2]],
 		"/integrations/lmp/apis-externas/pokemon": [15,[2]],
-		"/integrations/lmp/together": [16,[2]]
+		"/integrations/lmp/apis-externas/youtube": [16,[2]],
+		"/integrations/lmp/together": [17,[2]]
 	};
 
 export const hooks = {
