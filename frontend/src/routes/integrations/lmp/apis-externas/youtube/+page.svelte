@@ -1,5 +1,5 @@
 <script>
-    // @ts-nocheck
+// @ts-nocheck   
     
       import axios from 'axios';
       let data;
@@ -13,7 +13,7 @@
     
       axios.get('https://www.googleapis.com/youtube/v3/search', {
         params: {
-          key: '${{ secrets.API_KEY }}',//key de la API
+          key: `${{ secrets.API_KEY }}`,//key de la API
           q: 'Búsqueda de ejemplo',
           part: 'snippet'
         }
