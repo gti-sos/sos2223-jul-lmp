@@ -10,7 +10,7 @@ type EnsureDefined<T> = T extends null | undefined ? {} : T;
 type OptionalUnion<U extends Record<string, any>, A extends keyof U = U extends U ? keyof U : never> = U extends unknown ? { [P in Exclude<A, keyof U>]?: never } & U : never;
 export type Snapshot<T = any> = Kit.Snapshot<T>;
 type PageParentData = EnsureDefined<LayoutData>;
-type LayoutRouteId = RouteId | "/" | "/about" | "/analytics" | "/api/v2/andalusian-campings" | "/api/v2/immovables" | "/integrations" | "/integrations/lmp/api-immovables/highcharts" | "/integrations/lmp/api-immovables/jscharting" | "/integrations/lmp/api-immovables/morris" | "/integrations/lmp/api-sos/con-proxy" | "/integrations/lmp/api-sos/sin-proxy" | "/integrations/lmp/apis-externas/paises" | "/integrations/lmp/apis-externas/pokemon" | "/integrations/lmp/apis-externas/youtube" | "/integrations/lmp/together" | null
+type LayoutRouteId = RouteId | "/" | "/about" | "/analytics" | "/api/v2/andalusian-campings" | "/api/v2/immovables" | "/integrations" | "/integrations/lmp/api-immovables/highcharts" | "/integrations/lmp/api-immovables/jscharting" | "/integrations/lmp/api-immovables/morris" | "/integrations/lmp/api-sos/con-proxy" | "/integrations/lmp/api-sos/sin-proxy" | "/integrations/lmp/apis-externas/paises" | "/integrations/lmp/apis-externas/pokemon" | "/integrations/lmp/together" | null
 type LayoutParams = RouteParams & {  }
 type LayoutParentData = EnsureDefined<{}>;
 
